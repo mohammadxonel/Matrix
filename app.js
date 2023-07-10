@@ -137,3 +137,9 @@ let update = () => {
     for (let i = 0; i < fallingCharArr.length && frames % 2 == 0; i++) {
       fallingCharArr[i].draw(ctx);
     }
+
+    requestAnimationFrame(update);
+    frames++;
+};
+  
+update();
