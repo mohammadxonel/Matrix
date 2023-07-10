@@ -97,3 +97,11 @@ let maxCharCount = 300;
 let fallingCharArr = [];
 let fontSize = 13;
 let maxColumns = cw / fontSize;
+
+let frames = 0;
+
+class FallingChar {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+}
