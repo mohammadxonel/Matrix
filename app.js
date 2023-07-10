@@ -105,3 +105,21 @@ class FallingChar {
     this.x = x;
     this.y = y;
 }
+
+draw(ctx) {
+    this.value =
+      charArr[Math.floor(Math.random() * (charArr.length - 1))].toUpperCase();
+    this.speed = (Math.random() * fontSize * 3) / 4 + (fontSize * 3) / 4;
+
+    ctx.fillStyle = "rgba(0,255,0)";
+    ctx.font = fontSize + "px sans-serif";
+    ctx.fillText(this.value, this.x, this.y);
+    this.y += this.speed;
+
+    if (this.y > ch) {
+      this.y = (Math.random() * ch) / 2 - 50;
+      this.x = Math.floor(Math.random() * maxColumns) * fontSize;
+      this.speed = (-Math.random() * fontSize * 3) / 4 + (fontSize * 3) / 4;
+    }
+  }
+}
