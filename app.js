@@ -92,3 +92,8 @@ let charArr = [
     "Ѿ",
     "Ц",
 ];
+
+let maxCharCount = 300;
+let fallingCharArr = [];
+let fontSize = 13;
+let maxColumns = cw / fontSize;
