@@ -3,10 +3,10 @@
 
 
 ### Project Live :
-https://mohammadxxali.github.io/Matrix/
+https://mohammadxonel.github.io/Matrix/
 
 
 ----
 
 ### Project Screenshot
-![](https://github.com/mohammadxxali/Matrix/blob/main/Screenshot.png)
+![](https://github.com/mohammadxonel/Matrix/blob/main/Screenshot.png)
